@@ -1,0 +1,27 @@
+.step {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.step-circle {
+    width: 100px;
+    height: 100px;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.circle-text {
+    width: 250px;
+}
+
+.circle-p
+{
+    font-size: 17px;
+}

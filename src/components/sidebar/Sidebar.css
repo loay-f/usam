@@ -1,0 +1,96 @@
+.dashboard-side-bar {
+    width: 100%;
+    height: 100vh;
+    background-color: #F9F9F9;
+    position: relative;
+}
+
+.close {
+    display: none;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.dashboard-ul {
+    padding: 30px 50px 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.dashboard-ul li {
+    width: 100%;
+}
+
+.dashboard-link {
+    padding: 10px;
+    background-color: transparent;
+    color: rgb(150, 150, 150);
+    border-radius: 8px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.dashboard-link:hover
+{
+    background-color: var(--main-color);
+    color: #FFF;
+}
+
+.active-dashboard-link {
+    padding: 10px;
+    background-color: var(--main-color);
+    color: #FFF;
+    border-radius: 8px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.line {
+    position: relative;
+}
+
+.line::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #CCC;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+}
+
+.chat {
+    margin-top: 10px;
+    position: relative;
+}
+
+.chat::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: "2";
+    color: var(--headers-color);
+    border: 1px solid #CCC;
+    padding: 0 5px;
+    font-size: 13px;
+    border-radius: 5px;
+    position: absolute;
+    right: 10px;
+}
+
+@media screen and (max-width: 670px) {
+    .close {
+        display: block;
+    }
+}

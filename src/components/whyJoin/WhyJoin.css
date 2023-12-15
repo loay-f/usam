@@ -1,0 +1,22 @@
+.why-to-join {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.xl {
+    font-size: 35px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 760px) {
+    .why-to-join, .flex-center {
+        gap: 30px;
+    }
+}

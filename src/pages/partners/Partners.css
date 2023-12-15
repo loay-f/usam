@@ -1,0 +1,45 @@
+.partner-header {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.statistics {
+    margin: 200px 0 150px 0;
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+}
+
+.statistics-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.statistics-card h1 {
+    color: var(--main-color);
+    margin: 0;
+    font-size: 40px;
+}
+
+.statistics-card p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--headers-color);
+    width: 250px;
+}
+
+
+@media screen and (max-width: 950px) {
+    .statistics
+    {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .statistics-card p
+    {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

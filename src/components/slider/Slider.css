@@ -1,0 +1,24 @@
+.slider-header {
+    margin-top: 0;
+    margin-bottom: 50px;
+    text-align: center;
+    color: var(--headers-color);
+}
+
+.group {
+    display: flex !important;
+    width: fit-content !important;
+    gap: 50px !important;
+    margin: auto;
+}
+
+.card {
+    padding: 20px 50px;
+    border-radius: 10px;
+    border: 1px solid #CCC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+    cursor: pointer;
+}

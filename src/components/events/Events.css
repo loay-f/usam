@@ -1,0 +1,47 @@
+.events-card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 130px;
+}
+
+.event-card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    background-color: #FFF;
+    border-radius: 15px;
+    box-shadow: #CCC 1px 1px 10px;
+
+}
+
+.event-img {
+    width: 100%;
+    border-radius: 15px 15px 5px 5px;
+}
+
+.event-card-text {
+    padding: 20px;
+}
+
+.event-card-text p {
+    margin: 0;
+}
+
+.event-card-text p:first-of-type {
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.attend-btn {
+    padding: 16px 60px;
+    border-radius: 15px;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width: 850px) {
+    .events-card-container {
+        flex-direction: column;
+    }
+}

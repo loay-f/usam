@@ -1,0 +1,30 @@
+.steps-parent {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.up {
+    transform: translateY(-150px);
+}
+
+.down {
+    transform: translateY(100px);
+}
+
+
+@media screen and (max-width: 1200px) {
+    .steps-parent {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+    }
+
+    .up {
+        transform: translateY(0);
+    }
+
+    .down {
+        transform: translateY(0);
+    }
+}

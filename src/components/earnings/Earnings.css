@@ -1,0 +1,36 @@
+.earnings {
+    padding: 20px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.earnings-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.earnings-text p, .earnings-text span {
+    color: #7C8FAC;
+}
+
+.percent {
+    display: flex;
+    align-items: center;
+}
+
+.green {
+    color: #24E0BE;
+    padding: 5px;
+    background-color: #E6FFFA;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1250px) {
+    .earnings {
+        width: 50%;
+    }
+}

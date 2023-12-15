@@ -1,0 +1,58 @@
+.welcome-card {
+    padding: 30px;
+    background-color: #FDD6C7;
+    background-image: url("../../assets/ckjv6jx7700lscjfzuyspsnv0-customer-service-team-training.one-half.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    border-radius: 15px;
+}
+
+.welcome-card-text {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    width: 50%;
+}
+
+.welcome-header {
+    font-weight: 600;
+    color: #444;
+    font-size: 25px;
+}
+
+.welcome-p {
+    color: #999;
+    font-size: 17px;
+}
+
+.welcome-earnings {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.welcome-year {
+    background-color: #FFF;
+    color: #888;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+    .welcome-card {
+        background-image: none;
+    }
+
+    .welcome-card-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .welcome-earnings {
+        margin: 0 auto 20px auto;
+    }
+}
