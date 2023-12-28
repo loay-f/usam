@@ -39,7 +39,7 @@ const Sidebar = (props) => {
         </li>
         <li>
           <NavLink
-            to={"/"}
+            to={"/programs"}
             className={({ isActive }) =>
               isActive ? `active-dashboard-link` : "dashboard-link"
             }
@@ -50,7 +50,7 @@ const Sidebar = (props) => {
         </li>
         <li>
           <NavLink
-            to={"/"}
+            to={"/courses"}
             className={({ isActive }) =>
               isActive ? `active-dashboard-link` : "dashboard-link"
             }
@@ -61,7 +61,7 @@ const Sidebar = (props) => {
         </li>
         <li>
           <NavLink
-            to={"/"}
+            to={"/articles"}
             className={({ isActive }) =>
               isActive ? `active-dashboard-link` : "dashboard-link"
             }
@@ -72,7 +72,7 @@ const Sidebar = (props) => {
         </li>
         <li>
           <NavLink
-            to={"/"}
+            to={"/inbox"}
             className={({ isActive }) =>
               isActive ? `active-dashboard-link line` : "dashboard-link line"
             }
@@ -83,7 +83,7 @@ const Sidebar = (props) => {
         </li>
         <li>
           <NavLink
-            to={"/"}
+            to={"/chats"}
             className={({ isActive }) =>
               isActive ? `active-dashboard-link chat` : "dashboard-link chat"
             }
@@ -94,7 +94,7 @@ const Sidebar = (props) => {
         </li>
         <li>
           <NavLink
-            to={"/"}
+            to={"/calender"}
             className={({ isActive }) =>
               isActive ? `active-dashboard-link` : "dashboard-link"
             }
@@ -105,7 +105,7 @@ const Sidebar = (props) => {
         </li>
         <li>
           <NavLink
-            to={"/"}
+            to={"/analytics"}
             className={({ isActive }) =>
               isActive ? `active-dashboard-link` : "dashboard-link"
             }
@@ -116,7 +116,7 @@ const Sidebar = (props) => {
         </li>
         <li>
           <NavLink
-            to={"/"}
+            to={"/settings"}
             className={({ isActive }) =>
               isActive ? `active-dashboard-link` : "dashboard-link"
             }

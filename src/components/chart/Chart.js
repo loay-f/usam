@@ -57,7 +57,7 @@ export const data = {
 
 const Chart = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white p-2 rounded-3">
       <div className="chart">
         <div className="chart-text">
           <h2>Revenue updates</h2>

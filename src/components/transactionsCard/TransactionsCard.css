@@ -1,0 +1,26 @@
+.bg-blue {
+    background-color: #ECF2FF;
+}
+
+.bg-red {
+    background-color: #ffede8;
+}
+
+.transactions-btn
+{
+    border: 1px solid var(--main-color);
+    background-color: transparent;
+    color: var(--main-color);
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    padding: 10px 0;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.transactions-btn:hover
+{
+    background-color: var(--main-color);
+    color: #FFF;
+}

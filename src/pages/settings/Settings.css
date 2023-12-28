@@ -1,0 +1,15 @@
+.settings-img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.edit-btn
+{
+    border-radius: 10px;
+    color: #FFF;
+    border: 0;
+    background: var(--main-color);
+    padding: 10px 15px;
+}

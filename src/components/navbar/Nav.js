@@ -10,7 +10,7 @@ const Nav = () => {
 
   return (
     <>
-      <nav className="navbar">
+      <nav className="navigation">
         <div className="big-nav">
           <div className="logo-parent">
             <IoRocketOutline className="logo" />
