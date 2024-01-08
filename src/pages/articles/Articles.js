@@ -1,4 +1,3 @@
-import "./Articles.css";
 import ProgramCard from "../../components/program-card/ProgramCard";
 import {NavLink} from "react-router-dom";
 import {FaArrowRight} from "react-icons/fa";
